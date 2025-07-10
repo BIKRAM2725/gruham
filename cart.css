@@ -1,0 +1,90 @@
+
+.cart{
+    display: flex;
+    gap:20px;
+    margin: 20px;
+    
+}
+.cart-left{
+    background: rgba(229, 223, 223, 0.779);
+    padding: 20px;
+}
+.cart-left h1{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.cart-left hr{
+    border: none;
+    height: 1px;
+    background: black;
+}
+.product-cart-list {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 24px 0 12px 12px;
+}
+.product-cart-list img{
+    width: 20%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.product-cart-titleprice {
+    display: flex;
+    gap: 20px;
+    font-size: 18 px;
+}
+
+.product-in-stock{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: green;
+}
+.product-free-delivery{
+    margin-bottom: 5px;
+}
+.product-free-delivery span{
+    color:  #007185
+}
+.deliver-time-day{
+    margin-bottom: 15px;
+}
+.deliver-time-day span{
+    color: #007185;
+}
+.SUBTOTAl{
+   text-align: right;
+    margin-top: 10px;
+}
+.cart-right{
+    background:  rgba(229, 223, 223, 0.779);
+    padding:20px;
+    max-height: 220px;
+    min-width: 280px;
+}
+.cart-free-delivery{
+    display: flex;
+    font-size: 15px;
+}
+.cart-sub{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cart-check{
+    margin: 7px 0;
+    font-size: 15px;
+}
+.cart-right button{
+    width: 100%;
+    height: 40px;
+    margin: 15px 0;
+    background:chartreuse;
+    border: 2.5px solid transparent;
+    cursor: pointer;
+}
+.cart-right button:hover{
+    border: 2.5px solid #ebc712;
+}

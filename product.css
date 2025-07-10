@@ -1,0 +1,181 @@
+.body{
+    background: white;
+}
+.breadcrum{
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #565656;
+}
+.product-display{
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+}
+.product-image{
+    display: flex;
+    gap: 10px;
+}
+.product-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-icons img{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1px;
+}
+.product-details{
+    margin: 0 20px;
+}
+.product-title{
+    font-size: 25px;
+}
+.brand-name{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #007185;
+}
+.product-rating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.product-rating div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.product-rating p{
+    color: #007185;
+}
+.product-price{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.product-price div{
+    display: flex;
+
+}
+.product-price div p{
+    display: flex;
+    color: red;
+    font-size: 20px;
+    gap: 5px;
+    margin: 10px 0;
+}
+.product-price h1{
+    margin: 20px 0;
+    color: black;
+}
+
+.product-price span{
+
+    color: #007185;
+}
+.product-color-selection{
+    margin: 15px 0;
+}
+.product-color-options{
+    display: flex;
+   gap: 10px;
+    margin-top: 10px;
+    
+}
+.option:hover{
+    border: 1px solid orange;
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #000000;
+    gap: 10px;
+}
+.product-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+.product-discription h1{
+    font-size: 20px;
+    margin: 15px o;
+}
+.product-discription ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+.product-purches span{
+       margin-top: 1px;
+       font-size: 20px;
+}
+.product-purches{
+    width: 100%;
+    max-width: 280px;
+    border: 1px solid rgb(82, 79, 77);
+    border-radius: 10px;
+    padding: 20px;
+}
+.product-purches .price{
+    padding-top: 7px;
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+.product-purches span{
+    
+    font-weight: 550;
+    font-size: 16px;
+    padding: 2px;
+}
+.gap{
+    margin: 20px 0;
+}
+.gap span{
+    color: #007185;
+}
+.gap h4{
+    margin-top: 5px;
+    color: green;
+}
+.product-quantity{
+    width: 100%;
+    padding: 8px 5px;
+    outline-color: chartreuse;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.product-purches .btn{
+    width: 100%;
+    outline: 0;
+    border: 1px solid orange;
+    background:  chartreuse;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.product-seller-info{
+    
+    font-size: 50px;
+    margin: 20px 0;
+    font-size: 16px;
+
+}
+.product-seller-info span{
+    font-weight: 400;
+    color: #007185;
+}
+.review-count{
+    margin-block-end: 10px;
+    font-size: 20px;
+    gap: 5px;
+}
+

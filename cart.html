@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart | Gruham</title>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="cart.css" />
+  <link rel="stylesheet" href="product.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+      <div class="nav-logo"><div class="logo"></div></div>
+
+      <div class="nav-address border">
+        <p class="add-first">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-secound">Location</p>
+        </div>
+      </div>
+
+      <div class="nav-search">
+        <select class="search-select"><option>All</option></select>
+        <input placeholder="Search Gruham" class="search-input" />
+        <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+      </div>
+
+      <div class="nav-language border">
+        <img src="images/india.png" width="25px" alt="IN" />
+        <p>EN</p>
+        <i class="fa-solid fa-caret-down"></i>
+      </div>
+
+      <div class="nav-sigin border">
+        <p class="nav-first"><span>Sign In</span></p>
+        <p class="nov-second">Account</p>
+      </div>
+
+      <div class="nav-sigin border">
+        <p class="nav-third"><span>Orders</span></p>
+        <p class="nov-fourth">& Returns</p>
+      </div>
+
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        BAG
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-all border"><i class="fa-solid fa-bars"></i> All</div>
+      <div class="panel-ops">
+        <p>Tiles</p><p>Paint</p><p>Marble</p><p>Today's Deals</p><p>Bathware</p><p>Pro</p><p>Customer Service</p>
+      </div>
+      <div class="panel-deals">Welcome to Gruham</div>
+    </div>
+  </header>
+
+  <!-- Cart Section -->
+  <div class="cart">
+    <div class="cart-left">
+      <h1>Shopping Bag</h1>
+      <hr />
+
+      <!-- Product 1 -->
+      <div class="product-cart-list">
+        <img src="images/poic3.jpg" alt="3D Wallpaper" />
+        <div>
+          <div class="product-cart-titleprice">
+            <p>Color Solution 3D Wallpaper Wall Sticker // Product Code [1010]</p>
+            <p><b>₹510</b></p>
+          </div>
+          <p class="product-in-stock"><b>IN STOCK</b></p>
+          <p class="product-free-delivery"><b><span>FREE DELIVERY</span></b> with Gruham</p>
+          <p class="deliver-time-day">TOMORROW, 22 August for <span>Pro</span> members.</p>
+          <select class="product-quantity3">
+            <option>Quantity 1</option><option>Quantity 2</option><option>Quantity 3</option>
+            <option>Quantity 4</option><option>Quantity 5</option><option>Quantity 6</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+
+      <!-- Product 2 -->
+      <div class="product-cart-list">
+        <img src="images/61zO7WoLHrL._SX569_.jpg" alt="Dulux Paint" />
+        <div>
+          <div class="product-cart-titleprice">
+            <p>Dulux Simply Refresh Paint 1L (Moody Forest) // Product Code [1011]</p>
+            <p><b>₹951</b></p>
+          </div>
+          <p class="product-in-stock"><b>IN STOCK</b></p>
+          <p class="product-free-delivery"><b><span>FREE DELIVERY</span></b> with Gruham</p>
+          <p class="deliver-time-day">TOMORROW, 22 August for <span>Pro</span> members.</p>
+          <select class="product-quantity3">
+            <option>Quantity 1</option><option>Quantity 2</option><option>Quantity 3</option>
+            <option>Quantity 4</option><option>Quantity 5</option><option>Quantity 6</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+
+      <!-- Subtotal -->
+      <div class="SUBTOTAl">
+        <p>Subtotal (2 items): <b>₹1461</b></p>
+      </div>
+    </div>
+
+    <!-- Right Side Checkout -->
+    <div class="cart-right">
+      <div class="cart-free-delivery">
+        <p>✅</p>
+        <p>Part of your order qualifies for FREE Delivery. Choose FREE Delivery at checkout.</p>
+      </div>
+      <p class="cart-sub">Subtotal (2 items): <b>₹1461</b></p>
+      <p class="cart-check"><input type="checkbox" /> Confirm</p>
+      <a href="order.html"><button>PROCEED TO BUY</button></a>
+    </div>
+  </div>
+
+  <!-- Product Recommendations -->
+  <div class="products-slider-with-price">
+    <h2>Deals Under ₹1000</h2>
+    <div class="product">
+      <!-- Example Card -->
+      <div class="product-card">
+        <div class="product-image-container"><img src="images/pic4.jpg" alt="Deal Product" /></div>
+        <div class="product-offer"><p>16% off</p><span>Deal</span></div>
+        <p class="Product Price">₹712 <span>List Price: ₹599</span></p>
+        <h4>This Product is the best for you</h4>
+      </div>
+
+      <!-- Add more product-cards here as needed -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="foot-panel1">Back to top</div>
+
+    <div class="foot-panel2">
+      <ul>
+        <p>Get to Know Us</p>
+        <a>About Us</a><a>Careers</a><a>Press Releases</a><a>Gruham Science</a>
+      </ul>
+      <ul>
+        <p>Connect with Us</p>
+        <a>Facebook</a><a>YouTube</a><a>Instagram</a>
+      </ul>
+      <ul>
+        <p>Make Money with Us</p>
+        <a>Sell on Gruham</a><a>Gruham Accelerator</a><a>Advertise Products</a>
+      </ul>
+      <ul>
+        <p>Let Us Help You</p>
+        <a>COVID-19 Info</a><a>Purchase Protection</a><a>Product Safety</a><a>Help</a>
+      </ul>
+    </div>
+
+    <div class="foot-panel3"><div class="logo2"></div></div>
+
+    <div class="foot-panel4">
+      <div class="foot-pages1">
+        <a>Conditions of Use</a><a>Privacy Notice</a><a>Interest-Based Ads</a>
+      </div>
+      <div class="foot-pages2">
+        <a>© 2024, Gruham.com | DPU-DIT | Bikram Ghosh</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
