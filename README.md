@@ -1,5 +1,9 @@
 # gruham
 
+🔗 Live Demo: https://gruhamdit.netlify.app
+
+💻 GitHub Repo: https://github.com/BIKRAM2725/gruham 
+
 gruham/
 │
 ├── index.html # Home Page
